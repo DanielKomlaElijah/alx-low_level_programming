@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print alphabets
+ * main - print alphabet
  *
- * Description: program that prints the alphabet
+ * Description: program that prints the ch
  * in lowercase, followed by a new line
  *
  * Return: 0 for success
@@ -11,11 +11,11 @@
  */
 int main(void)
 {
-	char alphabet;
+	char ch;
 
-	for (alphabet = "a"; alphabet <= "z"; alphabet++)
+	for (ch = "a"; ch <= "z"; ch++)
 	{
-		putchar(alphabet);
+		putchar(ch);
 	}
 	putchar("\n");
 	return (0);
