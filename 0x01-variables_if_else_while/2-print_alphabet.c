@@ -3,7 +3,7 @@
 /**
  * main - print alphabet
  *
- * Description: program that prints the ch
+ * Description: program that prints the alphabet
  * in lowercase, followed by a new line
  *
  * Return: 0 for success
@@ -11,12 +11,12 @@
  */
 int main(void)
 {
-	char ch;
+	char alphabet;
 
-	for (ch = "a"; ch <= "z"; ch++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(ch);
+		putchar(alphabet);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
