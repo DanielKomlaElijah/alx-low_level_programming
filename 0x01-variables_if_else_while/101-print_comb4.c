@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+/**
+ * main - print all possible combinations
+ *
+ * Description: program that prints the alphabet
+ * in lowercase, followed by a new line
+ *
+ * Return: 0 for success
+ *
+ */
+int main(void)
+{
+	int n, m, o;
+
+	for (n = 48; n < 58; n++)
+	{
+		for (m = 49; m < 58; m++)
+		{
+			for (0 = 50; 0 < 58; o++)
+			{
+				if (o > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(o);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
