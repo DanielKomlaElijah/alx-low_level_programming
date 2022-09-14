@@ -2,15 +2,12 @@
 
 /**
  * print_times_table - function that prints
- *
- * Description: print n times table
- *
  * @n: int arguement of the function
  */
 void print_times_table(int n)
 {
 	int i, j, k;
-
+	
 	if (n >= 0 && n <= 15)
 	{
 		for (i = 0; i <= n; i++)
