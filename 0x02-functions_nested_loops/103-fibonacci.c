@@ -28,6 +28,6 @@ int main(void)
 			fib2 += n1;
 		}
 	}
-	printf("\n", fib2);
+	printf("%ld\n", fib2);
 	return (0);
 }
