@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * a function that prints an integer
+ * @n: integer arguement for the function
+ */
+void print_number(int n)
+{
+	unsigned int m;
+
+	if (n < 0)
+	{
+		m = -n;
+		_putchar('-');
+	}
+	else
+		m = n;
+
+	print_number(n1 / 10);
+	_putchar((m % 10) + '0');
+}
+
