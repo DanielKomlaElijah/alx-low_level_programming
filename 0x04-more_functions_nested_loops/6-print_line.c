@@ -5,6 +5,8 @@
  * straight line in the terminal
  *
  * @n: integer arguement for function
+ *
+ * Return: 0
  */
 void print_line(int n)
 {
