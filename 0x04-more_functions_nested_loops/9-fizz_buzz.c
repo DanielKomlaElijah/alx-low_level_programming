@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - function that prints the numbers from 1 to 100
@@ -22,6 +21,9 @@ int main(void)
 			printf("FizzBuzz");
 		else
 			printf("%d", i);
+
+		if (i < 100)
+			printf(" ");
 	}
 	printf("\n");
 
