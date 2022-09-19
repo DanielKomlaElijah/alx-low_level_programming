@@ -6,7 +6,7 @@
  * @str: first arguement for the function
  * Return: 0
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int n, m;
 	char c;
