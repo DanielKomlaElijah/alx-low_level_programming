@@ -8,7 +8,7 @@
  */
 char *cap_string(char *s)
 {
-	int i, j;
+	int i = 0;
 
 	if (s[i] >= 'a' && s[i] <= 'z')
 		s[i] = s[i] - 'a' + 'A';
