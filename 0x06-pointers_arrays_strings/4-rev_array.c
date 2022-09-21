@@ -5,7 +5,7 @@
  * content of an array of integers.
  * @a: first arguement for the function
  * @n: second arguement for the function
- * Return: 0 
+ * Return: 0
  */
 void reverse_array(int *a, int n)
 {
