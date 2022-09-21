@@ -7,10 +7,9 @@
  * @n: second arguement for the function
  * Return: 0 
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
-	int i, j, k;
-	j = n -1;
+	int i, j = n - 1, k;
 
 	for (i = 0; i < n / 2; i++)
 	{
