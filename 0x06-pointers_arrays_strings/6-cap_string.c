@@ -22,7 +22,7 @@ char *cap_string(char *s)
 		 s[i - 1] == '}' || s[i - 1] == ' ' || s[i - 1] == '\t'
 		 || s[i - 1] == '\n'))
 			s[i] = s[i] - 'a' + 'A';
-		i++
+		i++;
 	}
-	return (s)
+	return (s);
 }
