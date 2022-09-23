@@ -15,12 +15,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	while (*(n1 + a) != '\0')
 		a++;
-
 	while (*(n2 + b) != '\0')
 		b++;
-
-	if (a >= b)
-		d = a;
 	else
 		d = b;
 	if (size_r <= d + 1)
@@ -54,5 +50,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		return (r + 1);
 	else
 		return (r);
-
 }
