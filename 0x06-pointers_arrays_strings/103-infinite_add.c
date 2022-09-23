@@ -17,6 +17,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		a++;
 	while (*(n2 + b) != '\0')
 		b++;
+	if (a >= b)
+		d = a;
 	else
 		d = b;
 	if (size_r <= d + 1)
