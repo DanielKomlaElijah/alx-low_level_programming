@@ -23,10 +23,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		d = a;
 	else
 		d = b;
-
 	if (size_r <= d + 1)
 		return (0);
-
 	r[d + 1] = '\0';
 	a--, b--, size_r--;
 	e = *(n1 + a) - 48, f = *(n2 + b) - 48;
