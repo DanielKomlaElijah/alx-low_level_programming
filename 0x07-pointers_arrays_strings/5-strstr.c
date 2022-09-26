@@ -7,7 +7,7 @@
  * @needle: second arguement for the function
  * Return: a pointer
  */
-*_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i, j;
 
