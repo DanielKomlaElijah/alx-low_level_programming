@@ -18,8 +18,7 @@ char *_strpbrk(char *s, char *accept)
 			if (*(s + i) == *(accept + j))
 				return (s);
 		}
-		s++;
 	}
 
-	return ('\0');
+	return (NULL);
 }
