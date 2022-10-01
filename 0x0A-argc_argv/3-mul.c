@@ -3,7 +3,7 @@
 
 /**
  * main - program should print the result of the multiplication,
- * followed by a new line 
+ * followed by a new line
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line arguments.
  * Return: 0.
